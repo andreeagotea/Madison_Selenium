@@ -208,7 +208,7 @@ public class Main {
         fillLastName.sendKeys("Andreea");
 
         WebElement fillEmail= driver.findElement(By.id("email_address"));
-        fillEmail.sendkeys("goteaandreea123@yahoo.com");
+        // fillEmail.sendkeys("goteaandreea123@yahoo.com");
 
         WebElement fillPassword = driver.findElement(By.id("password"));
         fillPassword.sendKeys("1234");
